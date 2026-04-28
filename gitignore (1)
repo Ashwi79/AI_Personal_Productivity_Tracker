@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+.env
+*.db
+
+# ML models (auto-generated)
+backend/app/ml/saved_models/*.pkl
+
+# Node
+node_modules/
+frontend/build/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+
+# Docker
+.dockerignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+logs/
